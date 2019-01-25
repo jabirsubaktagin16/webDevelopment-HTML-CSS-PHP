@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(242, 242, 242);
+}
+h1{
+	font-family:Calibri;
+	font-size:50px;
+	color:black;
+	text-align:center;
+	font-weight:Normal;
+}
+.column {
+  float: left;
+  width: 30.5%;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.x{
+	width:100%;
+	background-color:white;
+	text-align:center;
+	color:black;
+	font-family:Calibri;
+	font-size:25px;
+	background-position:10px;
+	line-height:300%;
+	height:50px;
+}
+div.y{
+	width:100%;
+	background-color:white;
+	text-align:center;
+	color:rgb(161, 159, 136);
+	font-family:Calibri;
+	font-size:20px;
+	line-height:150%;
+	height:60px;
+}
+
+
+	
